@@ -1,9 +1,10 @@
-**This repo is supposed to used as config by NvChad users!**
+**This is config based on NvChad with basic funcionality for 42 students**
 
-- The main nvchad repo (NvChad/NvChad) is used as a plugin by this repo.
-- So you just import its modules , like `require "nvchad.options" , require "nvchad.mappings"`
-- So you can delete the .git from this repo ( when you clone it locally ) or fork it :)
-
+- Main additions
+-- formated tabs and display spaces so it is norminette friendly
+-- added clangd lsp
+-- 42 Header that wokrs based on enviroment variables
+-- also works in nixos machines
 # Credits
 
 1) Lazyvim starter https://github.com/LazyVim/starter as nvchad's starter was inspired by Lazyvim's . It made a lot of things easier!
