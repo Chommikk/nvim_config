@@ -1,7 +1,7 @@
 -- Load base nvchad LSP config
 require("nvchad.configs.lspconfig").defaults()
 
-local lspconfig = require("lspconfig")
+local lspconfig = vim.lsp.config
 
 -- Add Python LSP
 local function get_pylsp_cmd()
